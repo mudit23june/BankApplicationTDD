@@ -1,11 +1,9 @@
-package com.capgemini.model;
+package com.capgemini.repository;
 
 import com.capgemini.model.Account;
 
 public interface AccountRepository {
-	
-	boolean save(Account account);
-	
-	Account searchAccount(int accountNumber);
+boolean save(Account account);
+Account searchAccount(int accNumber);
 
 }
